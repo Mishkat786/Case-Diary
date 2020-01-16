@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "307896633154",
+    "firebase_url": "https://case-diary-85489.firebaseio.com",
+    "project_id": "case-diary-85489",
+    "storage_bucket": "case-diary-85489.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:307896633154:android:ad13482a747c006e376adb",
+        "android_client_info": {
+          "package_name": "com.example.casediary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "307896633154-oaa5ob88adlnl0okdfncnaa82mk4qvqe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.casediary",
+            "certificate_hash": "aafc0267d62a028b66416187e5382a161d00c41b"
+          }
+        },
+        {
+          "client_id": "307896633154-5qeaos4dua7m738jnq2o1l24thl71jfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBqyyla9vRByGCmoKB687Rf10v80syoIk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "307896633154-5qeaos4dua7m738jnq2o1l24thl71jfn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

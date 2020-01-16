@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".add_case">
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        tools:layout_editor_absoluteX="1dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtclientname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Client Name"
+            android:inputType="text"
+            android:textSize="15sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        tools:layout_editor_absoluteX="1dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtcasenumber"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Case Number"
+            android:inputType="text"
+            android:textSize="15sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="215dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtcasetitle"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Case Title"
+            android:inputType="textLongMessage"
+            android:textSize="15sp"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        tools:layout_editor_absoluteX="1dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtcourtno"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Court No"
+            android:textSize="15sp"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        tools:layout_editor_absoluteX="1dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtcased"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:hint="Case Description"
+            android:textSize="15sp"
+            android:inputType="text"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:layout_width="391dp"
+        android:layout_height="90dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.118"
+        tools:layout_editor_absoluteX="1dp"
+        android:focusableInTouchMode="true"
+        android:focusable="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/txtdate"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="15sp"
+
+            android:hint="Case Date: Select Date"
+            android:inputType="date"/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btncasesave"
+            android:layout_width="123dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="230dp"
+            android:background="@drawable/custom_button"
+            android:text="Save"
+            android:textSize="20sp"></Button>
+
+        <Button
+            android:id="@+id/btncasereset"
+            android:layout_width="123dp"
+            android:layout_height="64dp"
+            android:layout_marginLeft="220dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/custom_button"
+            android:text="Reset"
+            android:textSize="20sp"></Button>
+
+    </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Case Diary</string>
+    <string name="activity">Manage Client</string>
+    <string name="assets">file://android_asset/</string>
+</resources>

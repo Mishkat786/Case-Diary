@@ -1,0 +1,254 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.casediary"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="15"
+8-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+12-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:6:5-81
+12-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:6:22-78
+13    <uses-permission android:name="android.permission.VIBRATE" />
+13-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\9e27246628a8da089b58030ca525e6a2\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:5-66
+13-->[com.wdullaer:materialdatetimepicker:3.6.0] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\9e27246628a8da089b58030ca525e6a2\jetified-materialdatetimepicker-3.6.0\AndroidManifest.xml:26:22-63
+14    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+14-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:5-76
+14-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:11:22-73
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\52aaaf0f6bdd646e2f2d61c98654b7b7\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:5-79
+15-->[com.google.firebase:firebase-database:16.0.4] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\52aaaf0f6bdd646e2f2d61c98654b7b7\jetified-firebase-database-16.0.4\AndroidManifest.xml:22:22-76
+16
+17    <application
+17-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:8:5-78:19
+18        android:allowBackup="true"
+18-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:9:9-35
+19        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+19-->[androidx.core:core:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\7af9464903b8a503017df0a97e0258a2\core-1.0.1\AndroidManifest.xml:22:18-86
+20        android:debuggable="true"
+21        android:icon="@mipmap/ic_launcher"
+21-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:13:9-35
+25        android:theme="@style/AppTheme" >
+25-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:14:9-40
+26        <activity android:name="com.example.casediary.Login" />
+26-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:15:9-52
+26-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:15:19-40
+27        <activity
+27-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:16:9-19:74
+28            android:name="com.example.casediary.Notification"
+28-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:17:13-41
+29            android:label="Notify"
+29-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:18:13-35
+30            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+30-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:19:13-71
+31        <activity
+31-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:20:9-23:74
+32            android:name="com.example.casediary.SearchClient"
+32-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:21:13-41
+33            android:label="Search Client"
+33-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:22:13-42
+34            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+34-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:23:13-71
+35        <activity
+35-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:24:9-27:74
+36            android:name="com.example.casediary.search"
+36-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:25:13-35
+37            android:label="Search"
+37-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:26:13-35
+38            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+38-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:27:13-71
+39        <activity
+39-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:28:9-31:74
+40            android:name="com.example.casediary.DescriptionActivity"
+40-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:29:13-48
+41            android:label="Laws"
+41-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:30:13-33
+42            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+42-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:31:13-71
+43        <activity android:name="com.example.casediary.showcase" />
+43-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:32:9-46
+43-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:32:19-43
+44        <activity
+44-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:33:9-36:74
+45            android:name="com.example.casediary.add_case"
+45-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:34:13-37
+46            android:label="Add Case"
+46-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:35:13-37
+47            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+47-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:36:13-71
+48        <activity android:name="com.example.casediary.update_client" />
+48-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:37:9-51
+48-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:37:19-48
+49        <activity android:name="com.example.casediary.show_client" />
+49-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:38:9-49
+49-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:38:19-46
+50        <activity
+50-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:39:9-42:74
+51            android:name="com.example.casediary.add_client"
+51-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:40:13-39
+52            android:label="Add Client"
+52-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:41:13-39
+53            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+53-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:42:13-71
+54        <activity android:name="com.example.casediary.MainActivity" />
+54-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:43:9-50
+54-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:43:19-47
+55        <activity
+55-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:44:9-47:79
+56            android:name="com.example.casediary.Signup_form"
+56-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:45:13-40
+57            android:label="Sign Up"
+57-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:46:13-36
+58            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+58-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:47:13-76
+59        <activity
+59-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:48:9-51:74
+60            android:name="com.example.casediary.LawsActivity"
+60-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:49:13-41
+61            android:label="Laws"
+61-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:50:13-33
+62            android:theme="@style/Theme.AppCompat.Light.DarkActionBar" />
+62-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:51:13-71
+63        <activity
+63-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:52:9-55:79
+64            android:name="com.example.casediary.ManagecaseActivity"
+64-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:53:13-47
+65            android:label="Manage Case"
+65-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:54:13-40
+66            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+66-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:55:13-76
+67        <activity
+67-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:56:9-59:79
+68            android:name="com.example.casediary.ManageclientActivity"
+68-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:57:13-49
+69            android:label="Manage Client"
+69-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:58:13-42
+70            android:theme="@style/Base.Theme.AppCompat.Light.DarkActionBar" />
+70-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:59:13-76
+71
+72        <receiver android:name="com.allyants.notifyme.NotificationPublisher" />
+72-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:61:9-80
+72-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:61:19-77
+73        <receiver
+73-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:62:9-68:20
+74            android:name="com.allyants.notifyme.BootNotifyMe"
+74-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:62:19-68
+75            android:enabled="true"
+75-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:16:13-35
+76            android:exported="true" >
+76-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:17:13-36
+77            <intent-filter>
+77-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:63:13-67:29
+78                <action android:name="android.intent.action.BOOT_COMPLETED" />
+78-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:64:17-79
+78-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:64:25-76
+79
+80                <category android:name="android.intent.category.HOME" />
+80-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:66:17-73
+80-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:66:27-70
+81            </intent-filter>
+82        </receiver>
+83
+84        <activity android:name="com.example.casediary.splash" >
+84-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:70:9-77:20
+84-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:71:13-35
+85            <intent-filter>
+85-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:72:13-76:29
+86                <action android:name="android.intent.action.MAIN" />
+86-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:73:17-69
+86-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:73:25-66
+87
+88                <category android:name="android.intent.category.LAUNCHER" />
+88-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:75:17-77
+88-->C:\Users\ataul\AndroidStudioProjects\CaseDiary\app\src\main\AndroidManifest.xml:75:27-74
+89            </intent-filter>
+90        </activity>
+91
+92        <receiver
+92-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:18:9-21:39
+93            android:name="com.allyants.notifyme.ActionReceiver"
+93-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:19:13-64
+94            android:enabled="true"
+94-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:20:13-35
+95            android:exported="true" />
+95-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:21:13-36
+96        <receiver
+96-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:22:9-25:39
+97            android:name="com.allyants.notifyme.DeletePendingIntent"
+97-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:23:13-69
+98            android:enabled="true"
+98-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:24:13-35
+99            android:exported="true" />
+99-->[com.github.jakebonk:NotifyMe:1.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\a868549d19d34aa0f774dcfbf56a2d0f\jetified-NotifyMe-1.0.1\AndroidManifest.xml:25:13-36
+100
+101        <activity
+101-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:24:9-31:50
+102            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+102-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:25:13-85
+103            android:excludeFromRecents="true"
+103-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:26:13-46
+104            android:exported="true"
+104-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:27:13-36
+105            android:launchMode="singleTask"
+105-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:28:13-44
+106            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+106-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:29:13-102
+107            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+107-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:30:13-72
+108
+109        <service
+109-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:33:9-39:19
+110            android:name="com.google.firebase.components.ComponentDiscoveryService"
+110-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:34:13-84
+111            android:exported="false" >
+111-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:35:13-37
+112            <meta-data
+112-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:36:13-38:85
+113                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+113-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:37:17-109
+114                android:value="com.google.firebase.components.ComponentRegistrar" />
+114-->[com.google.firebase:firebase-auth:16.0.5] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\0ceed2f698d552cb3b3b91be46c3c5a8\jetified-firebase-auth-16.0.5\AndroidManifest.xml:38:17-82
+115        </service>
+116
+117        <activity
+117-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\38697c0f07d36aa867c67f23d1908df6\jetified-play-services-base-16.0.1\AndroidManifest.xml:23:9-26:75
+118            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+118-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\38697c0f07d36aa867c67f23d1908df6\jetified-play-services-base-16.0.1\AndroidManifest.xml:24:13-79
+119            android:exported="false"
+119-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\38697c0f07d36aa867c67f23d1908df6\jetified-play-services-base-16.0.1\AndroidManifest.xml:25:13-37
+120            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+120-->[com.google.android.gms:play-services-base:16.0.1] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\38697c0f07d36aa867c67f23d1908df6\jetified-play-services-base-16.0.1\AndroidManifest.xml:26:13-72
+121
+122        <provider
+122-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\964ee17dc6c2490e797312dcee58fd8c\jetified-firebase-common-16.0.3\AndroidManifest.xml:10:9-14:39
+123            android:name="com.google.firebase.provider.FirebaseInitProvider"
+123-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\964ee17dc6c2490e797312dcee58fd8c\jetified-firebase-common-16.0.3\AndroidManifest.xml:11:13-77
+124            android:authorities="com.example.casediary.firebaseinitprovider"
+124-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\964ee17dc6c2490e797312dcee58fd8c\jetified-firebase-common-16.0.3\AndroidManifest.xml:12:13-72
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\964ee17dc6c2490e797312dcee58fd8c\jetified-firebase-common-16.0.3\AndroidManifest.xml:13:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:16.0.3] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\964ee17dc6c2490e797312dcee58fd8c\jetified-firebase-common-16.0.3\AndroidManifest.xml:14:13-36
+127
+128        <meta-data
+128-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\41b8d100d18da8be9805f336bd934592\jetified-play-services-basement-16.1.0\AndroidManifest.xml:23:9-25:69
+129            android:name="com.google.android.gms.version"
+129-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\41b8d100d18da8be9805f336bd934592\jetified-play-services-basement-16.1.0\AndroidManifest.xml:24:13-58
+130            android:value="@integer/google_play_services_version" />
+130-->[com.google.android.gms:play-services-basement:16.1.0] C:\Users\ataul\.gradle\caches\transforms-2\files-2.1\41b8d100d18da8be9805f336bd934592\jetified-play-services-basement-16.1.0\AndroidManifest.xml:25:13-66
+131    </application>
+132
+133</manifest>

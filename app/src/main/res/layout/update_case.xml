@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <EditText
+        android:id="@+id/editclientname"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Client Name"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:inputType="text"
+        />
+    <EditText
+        android:id="@+id/editcasenumber"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Case Number"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/editcasetitle"
+        android:layout_width="match_parent"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Case Title"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editcourtno"
+        android:layout_width="match_parent"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Court No"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editcased"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Case Decscription"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/editdate"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textSize="20sp"
+        android:hint="Date"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Update"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:text="Delete"
+        android:textSize="20sp"
+        android:background="@drawable/custom_button"/>
+</LinearLayout>
